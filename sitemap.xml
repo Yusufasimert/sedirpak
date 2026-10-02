@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- 1. Ana Sayfa (Home) -->
+  <url>
+    <loc>https://sedirpak.com/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://sedirpak.com/assets/img/sedirpak-logo.webp</image:loc>
+      <image:title>SedirPak Yönetim &amp; Temizlik Logo</image:title>
+      <image:caption>İstanbul ve Çorum Profesyonel Site ve Tesis Yönetimi</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sedirpak.com/assets/img/sedirpak-kurumsal-yonetim-temizlik.webp</image:loc>
+      <image:title>SedirPak Kurumsal Tesis Yönetimi ve Temizlik</image:title>
+      <image:caption>10+ Yıllık Güven ve Sektörel Deneyim</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 2. Hizmetlerimiz (Services) -->
+  <url>
+    <loc>https://sedirpak.com/hizmetler.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://sedirpak.com/assets/img/services/sedirpak-site-yonetimi.webp</image:loc>
+      <image:title>Profesyonel Site &amp; Apartman Yönetimi</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sedirpak.com/assets/img/services/sedirpak-ortak-alan-merdiven-temizligi.webp</image:loc>
+      <image:title>Merdiven ve Ortak Alan Temizliği</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sedirpak.com/assets/img/services/sedirpak-insaat-sonrasi-temizlik.webp</image:loc>
+      <image:title>İnşaat Sonrası Detaylı Temizlik</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sedirpak.com/assets/img/services/sedirpak-dis-cephe-cam-temizligi.webp</image:loc>
+      <image:title>Dış Cephe Cam Temizliği</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sedirpak.com/assets/img/services/sedirpak-kurumsal-personel-temini.webp</image:loc>
+      <image:title>Kurumsal Personel Temini</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sedirpak.com/assets/img/services/sedirpak-bocek-hasere-ilaclama.webp</image:loc>
+      <image:title>Böcek İlaçlama ve Dezenfeksiyon</image:title>
+    </image:image>
+  </url>
+
+  <!-- 3. Referanslarımız & Projelerimiz (Portfolio) -->
+  <url>
+    <loc>https://sedirpak.com/referanslar.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://sedirpak.com/assets/img/sedirpak-logo.webp</image:loc>
+      <image:title>SedirPak Referanslar ve Tamamlanan Projeler</image:title>
+    </image:image>
+  </url>
+
+  <!-- 4. Sıkça Sorulan Sorular (FAQ) -->
+  <url>
+    <loc>https://sedirpak.com/sss.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://sedirpak.com/assets/img/sedirpak-logo.webp</image:loc>
+      <image:title>SedirPak Sıkça Sorulan Sorular ve Şeffaf Yanıtlar</image:title>
+    </image:image>
+  </url>
+
+</urlset>

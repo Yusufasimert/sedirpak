@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0f766e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Hizmetlerimiz | SedirPak Profesyonel Tesis Yönetimi & Temizlik</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="SedirPak hizmetleri: KMK uyumlu site yönetimi, merdiven temizliği, inşaat sonrası hijyen, dış cephe cam silimi ve personel temini. Hemen fiyat bilgisi alın!">
+  <meta name="keywords" content="site yönetimi, apartman temizliği, merdiven temizliği, inşaat temizliği, dış cephe cam temizliği, personel temini, ilaçlama, İstanbul, Çorum">
+  <meta name="author" content="SedirPak">
+  <link rel="canonical" href="https://sedirpak.com/hizmetler.html">
+
+  <!-- OpenGraph / Social Meta Tags -->
+  <meta property="og:title" content="SedirPak Hizmetlerimiz | Profesyonel Tesis Yönetimi ve Temizlik">
+  <meta property="og:description" content="İstanbul ve Çorum genelinde KMK uyumlu site yönetimi ve 5 yıldızlı temizlik standartları.">
+  <meta property="og:image" content="assets/img/sedirpak-logo.webp">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css?v=5.7">
+  <link rel="icon" type="image/png" href="assets/img/sedirpak-logo.webp?v=2">
+  <script>
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  </script>
+
+  <!-- Yapılandırılmış Veri: BreadcrumbList & Service Portföyü (Googlebot İçin) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Ana Sayfa",
+            "item": "https://sedirpak.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Hizmetlerimiz",
+            "item": "https://sedirpak.com/hizmetler.html"
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "SedirPak Tesis Yönetimi ve Profesyonel Temizlik Hizmetleri",
+        "description": "İstanbul ve Çorum'da Kat Mülkiyeti Kanunu uyumlu yönetim ve endüstriyel hijyen çözümleri",
+        "itemListElement": [
+          {
+            "@type": "Service",
+            "position": 1,
+            "name": "Site ve Apartman Yönetimi",
+            "description": "Şeffaf aidat tahsilatı, resmi defter ve genel kurul divan yönetimi, KMK %100 uyumlu idari ve mali yönetim.",
+            "provider": { "@type": "Organization", "name": "SedirPak" }
+          },
+          {
+            "@type": "Service",
+            "position": 2,
+            "name": "Merdiven ve Ortak Alan Temizliği",
+            "description": "Haftalık periyodik bina merdiveni, asansör, tırabzan, sığınak ve otopark hijyen uygulamaları.",
+            "provider": { "@type": "Organization", "name": "SedirPak" }
+          },
+          {
+            "@type": "Service",
+            "position": 3,
+            "name": "İnşaat Sonrası Detaylı Temizlik",
+            "description": "Sıfır konut, şantiye ve tadilat bitimi harç, boya, alçı ve koruyucu bant kalıntılarının kimyasal ile arındırılması.",
+            "provider": { "@type": "Organization", "name": "SedirPak" }
+          },
+          {
+            "@type": "Service",
+            "position": 4,
+            "name": "Dış Cephe Cam Temizliği",
+            "description": "Sepetli vinç ve sertifikalı endüstriyel dağcı personellerle plaza, rezidans ve bina dış cephe cam silimi.",
+            "provider": { "@type": "Organization", "name": "SedirPak" }
+          },
+          {
+            "@type": "Service",
+            "position": 5,
+            "name": "Kurumsal Personel Temini",
+            "description": "SGK ve İSG yükümlülükleri SedirPak güvencesinde temizlikçi, karşılama ve danışma personeli istihdamı.",
+            "provider": { "@type": "Organization", "name": "SedirPak" }
+          },
+          {
+            "@type": "Service",
+            "position": 6,
+            "name": "Haşere & Böcek İlaçlama",
+            "description": "Sağlık Bakanlığı onaylı kokusuz biyosidal ürünlerle kalorifer böceği, pire, kemirgen ve kene ilaçlaması.",
+            "provider": { "@type": "Organization", "name": "SedirPak" }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Site Preloader: Minimal Fırça & Süpürme Animasyonu -->
+  <div id="sitePreloader" class="site-preloader" aria-hidden="true">
+    <div class="preloader-minimal">
+      <div class="broom-anim-box">
+        <svg class="broom-svg" viewBox="0 0 140 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Floor line -->
+          <line class="broom-floor" x1="10" y1="80" x2="130" y2="80" />
+          
+          <!-- Left Dust Group (Sola süpürdükçe kalkan tozlar) -->
+          <g class="dust-group dust-left">
+            <path class="dust-cloud" d="M42 78 C38 69 29 67 24 71 C19 67 11 69 11 75 C8 75 5 78 8 80 C10 80 42 80 42 78 Z" fill="#cbd5e1" opacity="0.8"/>
+            <circle class="dust-dot d1" cx="24" cy="69" r="3.2" fill="#94a3b8" />
+            <circle class="dust-dot d2" cx="15" cy="64" r="2.6" fill="#94a3b8" />
+            <circle class="dust-dot d3" cx="32" cy="63" r="2.2" fill="#64748b" />
+            <circle class="dust-dot d4" cx="8" cy="73" r="2.4" fill="#94a3b8" />
+            <circle class="dust-dot d5" cx="20" cy="56" r="1.8" fill="#cbd5e1" />
+            <circle class="dust-dot d6" cx="28" cy="74" r="2.0" fill="#94a3b8" />
+            <path class="dust-line" d="M38 78 Q26 75 14 74" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+            <path class="dust-line" d="M30 73 Q20 69 10 67" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round"/>
+          </g>
+
+          <!-- Right Dust Group (Sağa süpürdükçe kalkan tozlar) -->
+          <g class="dust-group dust-right">
+            <path class="dust-cloud" d="M98 78 C102 69 111 67 116 71 C121 67 129 69 129 75 C132 75 135 78 132 80 C130 80 98 80 98 78 Z" fill="#cbd5e1" opacity="0.8"/>
+            <circle class="dust-dot d1" cx="116" cy="69" r="3.2" fill="#94a3b8" />
+            <circle class="dust-dot d2" cx="125" cy="64" r="2.6" fill="#94a3b8" />
+            <circle class="dust-dot d3" cx="108" cy="63" r="2.2" fill="#64748b" />
+            <circle class="dust-dot d4" cx="132" cy="73" r="2.4" fill="#94a3b8" />
+            <circle class="dust-dot d5" cx="120" cy="56" r="1.8" fill="#cbd5e1" />
+            <circle class="dust-dot d6" cx="112" cy="74" r="2.0" fill="#94a3b8" />
+            <path class="dust-line" d="M102 78 Q114 75 126 74" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+            <path class="dust-line" d="M110 73 Q120 69 130 67" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round"/>
+          </g>
+
+          <!-- Sweeping Broom Structure -->
+          <g class="broom-pivot">
+            <!-- Long handle (Color 1: #1e293b) -->
+            <line x1="70" y1="12" x2="70" y2="58" stroke="#1e293b" stroke-width="3.5" stroke-linecap="round"/>
+            
+            <!-- Brush socket (Color 1: #1e293b) -->
+            <rect x="55" y="58" width="30" height="6.5" rx="2" fill="#1e293b"/>
+            
+            <!-- Bristles / Fırça (Color 2: #0f766e) -->
+            <path d="M56 64.5 L52 80 M60 64.5 L58 80 M64 64.5 L63 80 M70 64.5 L70 80 M76 64.5 L77 80 M80 64.5 L82 80 M84 64.5 L88 80" stroke="#0f766e" stroke-width="2.8" stroke-linecap="round"/>
+          </g>
+        </svg>
+      </div>
+      <div class="preloader-brand">
+        <img src="assets/img/sedirpak-logo.webp?v=3" alt="SedirPak Logo" class="preloader-logo">
+      </div>
+    </div>
+  </div>
+
+  <!-- Top Announcement / Contact Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left d-none-mobile">
+        <span class="top-item"><i class="fa-solid fa-location-dot"></i> <strong>1. Şube:</strong> İstanbul (Ataşehir) | <strong>2. Şube:</strong> Çorum (Merkez)</span>
+        <span class="top-item"><i class="fa-regular fa-clock"></i> Pzt - Cmt: 08:30 - 19:00</span>
+      </div>
+      <div class="top-bar-right">
+        <a href="mailto:info@sedirpak.com" class="top-link"><i class="fa-solid fa-envelope"></i> info@sedirpak.com</a>
+        <a href="tel:05398471384" class="top-link top-phone"><i class="fa-solid fa-phone"></i> 0539 847 13 84</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Bar -->
+  <header class="navbar-wrapper" id="main-header">
+    <div class="container navbar-container">
+      <a href="index.html" class="brand-logo" aria-label="SedirPak Ana Sayfa">
+        <img src="assets/img/sedirpak-logo.webp?v=3" alt="SedirPak Logo" class="brand-img">
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link nav-btn">
+          <i class="fa-solid fa-house"></i>
+          <span>Ana Sayfa</span>
+        </a>
+        <a href="index.html#hakkimizda" class="nav-link nav-btn">
+          <i class="fa-solid fa-building"></i>
+          <span>Hakkımızda</span>
+        </a>
+        <a href="index.html#hizmetler" class="nav-link nav-btn">
+          <i class="fa-solid fa-broom"></i>
+          <span>Hizmetlerimiz</span>
+        </a>
+        <a href="index.html#neden-biz" class="nav-link nav-btn">
+          <i class="fa-solid fa-shield-halved"></i>
+          <span>Neden Biz?</span>
+        </a>
+        <a href="index.html#referanslar" class="nav-link nav-btn">
+          <i class="fa-solid fa-images"></i>
+          <span>Referanslar</span>
+        </a>
+        <a href="index.html#subeler" class="nav-link nav-btn">
+          <i class="fa-solid fa-map-location-dot"></i>
+          <span>Şubelerimiz & İletişim</span>
+        </a>
+        <a href="index.html#hesaplayici" class="nav-link nav-btn nav-btn-cta">
+          <i class="fa-solid fa-calculator"></i>
+          <span>Fiyat Bilgisi</span>
+        </a>
+        <a href="sss.html" class="nav-link nav-btn">
+          <i class="fa-solid fa-circle-question"></i>
+          <span>S.S.S.</span>
+        </a>
+      </nav>
+
+      <!-- Action Buttons (Yalnızca Menü Butonu) -->
+      <div class="nav-actions">
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Menüyü Aç/Kapat">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+      <img src="assets/img/sedirpak-logo.webp?v=3" alt="SedirPak Logo" class="brand-img" style="height: 40px;">
+      <button class="drawer-close" id="drawerCloseBtn">&times;</button>
+    </div>
+    <div class="drawer-links">
+      <a href="index.html" class="drawer-link"><i class="fa-solid fa-house"></i> Ana Sayfa</a>
+      <a href="index.html#hakkimizda" class="drawer-link"><i class="fa-solid fa-building"></i> Hakkımızda</a>
+      <a href="index.html#hizmetler" class="drawer-link"><i class="fa-solid fa-broom"></i> Hizmetlerimiz</a>
+      <a href="index.html#neden-biz" class="drawer-link"><i class="fa-solid fa-shield-halved"></i> Neden SedirPak?</a>
+      <a href="index.html#yorumlar" class="drawer-link"><i class="fa-solid fa-comment-dots"></i> Müşteri Yorumları</a>
+      <a href="index.html#referanslar" class="drawer-link"><i class="fa-solid fa-images"></i> Projeler & Referanslar</a>
+      <a href="index.html#subeler" class="drawer-link"><i class="fa-solid fa-map-location-dot"></i> Şubeler & İletişim</a>
+      <a href="index.html#hesaplayici" class="drawer-link"><i class="fa-solid fa-calculator"></i> Fiyat Bilgisi & Teklif</a>
+      <a href="sss.html" class="drawer-link"><i class="fa-solid fa-circle-question"></i> Sıkça Sorulan Sorular (S.S.S.)</a>
+    </div>
+    <div class="drawer-footer">
+      <a href="https://wa.me/905398471384" target="_blank" class="btn btn-whatsapp-full">
+        <i class="fa-brands fa-whatsapp"></i> WhatsApp'tan Danışın
+      </a>
+      <a href="tel:05398471384" class="btn btn-call-full">
+        <i class="fa-solid fa-phone"></i> 0539 847 13 84
+      </a>
+    </div>
+  </div>
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+
+  <!-- Page Banner (İç Sayfa Başlık Alanı) -->
+  <section class="page-banner-section">
+    <div class="container">
+      <div class="page-banner-breadcrumb">
+        <a href="index.html"><i class="fa-solid fa-house"></i> Ana Sayfa</a>
+        <i class="fa-solid fa-chevron-right" style="font-size: 0.65rem;"></i>
+        <span>Hizmetlerimiz</span>
+      </div>
+      <h1 class="page-banner-title">
+        Tesis Yönetimi ve <span class="gradient-text">Entegre Temizlik</span> Çözümleri
+      </h1>
+      <p class="page-banner-subtitle">
+        Kat Mülkiyeti Kanununa %100 uyumlu şeffaf bina yönetimi, haftalık merdiven hijyeni, inşaat sonrası temizlik ve kurumsal personel çözümleri tek çatı altında.
+      </p>
+    </div>
+  </section>
+
+  <!-- All Services Section (8 Hizmet Tam Liste) -->
+  <section class="services-section" id="tum-hizmetler" style="padding: 70px 0;">
+    <div class="container">
+      <div class="section-header text-center" style="margin-bottom: 30px;">
+        <span class="section-tag"><i class="fa-solid fa-layer-group"></i> TÜM HİZMETLERİMİZ</span>
+        <h2 class="section-title">Uzmanlık Alanlarımız & Çözüm Portföyümüz</h2>
+        <p class="section-subtitle">
+          İhtiyacınıza uygun kategoriyi seçerek detayları inceleyebilir, saniyeler içinde ücretsiz fiyat bilgisi oluşturabilirsiniz.
+        </p>
+
+        <!-- Service Filter Buttons -->
+        <div class="service-filter-tabs">
+          <button class="filter-tab active" data-filter="all">Tüm Hizmetler (8)</button>
+          <button class="filter-tab" data-filter="yonetim">Site & Tesis Yönetimi</button>
+          <button class="filter-tab" data-filter="temizlik">Temizlik Hizmetleri</button>
+          <button class="filter-tab" data-filter="ozel">Özel Personel & İlaçlama</button>
+        </div>
+      </div>
+
+      <div class="services-grid" id="servicesGrid">
+        <!-- Hizmet 1 -->
+        <div class="service-card" data-category="yonetim">
+          <div class="service-card-media">
+            <img src="assets/img/services/sedirpak-site-yonetimi.webp" alt="SedirPak Site & Apartman Yönetimi" loading="lazy">
+            <div class="service-icon-badge">
+              <i class="fa-solid fa-city"></i>
+            </div>
+            <span class="service-cat-pill">Yönetim</span>
+          </div>
+          <div class="service-card-body">
+            <h3>Profesyonel Site & Apartman Yönetimi</h3>
+            <p>Kat Mülkiyeti Kanununa tam uyumlu, şeffaf aidat ve profesyonel bina yönetimi.</p>
+            <ul class="service-points">
+              <li><i class="fa-solid fa-check"></i> Banka hesapları ve online aidat takibi</li>
+              <li><i class="fa-solid fa-check"></i> Genel kurul toplantı organizasyonu ve divan</li>
+              <li><i class="fa-solid fa-check"></i> Hukuki icra ve borç tahsilat takibi</li>
+            </ul>
+            <a href="index.html#hesaplayici" onclick="selectServiceForCalc('Profesyonel Site ve Apartman Yönetimi')" class="btn-card-quote">
+              <span>Fiyat Bilgisi Al</span> <i class="fa-solid fa-calculator"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hizmet 2 -->
+        <div class="service-card" data-category="temizlik">
+          <div class="service-card-media">
+            <img src="assets/img/services/sedirpak-insaat-sonrasi-temizlik.webp" alt="SedirPak İnşaat Sonrası Temizlik" loading="lazy">
+            <div class="service-icon-badge">
+              <i class="fa-solid fa-trowel-bricks"></i>
+            </div>
+            <span class="service-cat-pill">Temizlik</span>
+          </div>
+          <div class="service-card-body">
+            <h3>İnşaat Sonrası Temizlik</h3>
+            <p>Kaba ve ince inşaat kalıntılarından arındırılmış, taşınmaya hazır anahtar teslim temizlik.</p>
+            <ul class="service-points">
+              <li><i class="fa-solid fa-check"></i> Endüstriyel zemin yıkama ve vakum</li>
+              <li><i class="fa-solid fa-check"></i> Pencere bandı, alçı ve boya kazıma</li>
+              <li><i class="fa-solid fa-check"></i> Detaylı ıslak zemin dezenfeksiyonu</li>
+            </ul>
+            <a href="index.html#hesaplayici" onclick="selectServiceForCalc('İnşaat Sonrası Detaylı Temizlik')" class="btn-card-quote">
+              <span>Fiyat Bilgisi Al</span> <i class="fa-solid fa-calculator"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hizmet 3 -->
+        <div class="service-card" data-category="temizlik">
+          <div class="service-card-media">
+            <img src="assets/img/services/sedirpak-ortak-alan-merdiven-temizligi.webp" alt="SedirPak Ortak Alan & Merdiven Temizliği" loading="lazy">
+            <div class="service-icon-badge">
+              <i class="fa-solid fa-stairs"></i>
+            </div>
+            <span class="service-cat-pill">Temizlik</span>
+          </div>
+          <div class="service-card-body">
+            <h3>Ortak Alan & Merdiven Temizliği</h3>
+            <p>Merdiven, asansör ve bina girişlerinde haftalık düzenli hijyenik bakım.</p>
+            <ul class="service-points">
+              <li><i class="fa-solid fa-check"></i> Haftalık periyodik program ve denetim</li>
+              <li><i class="fa-solid fa-check"></i> Asansör kabin ve ayna dezenfeksiyonu</li>
+              <li><i class="fa-solid fa-check"></i> Korkuluk, posta kutusu ve kapı silimi</li>
+            </ul>
+            <a href="index.html#hesaplayici" onclick="selectServiceForCalc('Ortak Alan & Merdiven Temizliği')" class="btn-card-quote">
+              <span>Fiyat Bilgisi Al</span> <i class="fa-solid fa-calculator"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hizmet 4 -->
+        <div class="service-card" data-category="temizlik">
+          <div class="service-card-media">
+            <img src="assets/img/services/sedirpak-dis-cephe-cam-temizligi.webp" alt="SedirPak Dış Cephe Cam Temizliği" loading="lazy">
+            <div class="service-icon-badge">
+              <i class="fa-solid fa-window-maximize"></i>
+            </div>
+            <span class="service-cat-pill">Temizlik</span>
+          </div>
+          <div class="service-card-body">
+            <h3>Dış Cephe Cam Temizliği</h3>
+            <p>Plaza ve rezidanslarda vinçli uzman ekiplerle güvenli, lekesiz cam temizliği.</p>
+            <ul class="service-points">
+              <li><i class="fa-solid fa-check"></i> Sertifikalı sepetli vinç operatörleri</li>
+              <li><i class="fa-solid fa-check"></i> Saf su arıtma ve leke bırakmayan sistem</li>
+              <li><i class="fa-solid fa-check"></i> İSG mevzuatına tam uyumlu güvenlik</li>
+            </ul>
+            <a href="index.html#hesaplayici" onclick="selectServiceForCalc('Dış Cephe Cam Temizliği (Vinçli)')" class="btn-card-quote">
+              <span>Fiyat Bilgisi Al</span> <i class="fa-solid fa-calculator"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hizmet 5 -->
+        <div class="service-card" data-category="ozel">
+          <div class="service-card-media">
+            <img src="assets/img/services/sedirpak-kurumsal-personel-temini.webp" alt="SedirPak Personel Temini" loading="lazy">
+            <div class="service-icon-badge">
+              <i class="fa-solid fa-users-gear"></i>
+            </div>
+            <span class="service-cat-pill">Personel</span>
+          </div>
+          <div class="service-card-body">
+            <h3>Personel Temini (Temizlik & Danışma)</h3>
+            <p>Tesisleriniz için tam sigortalı, deneyimli temizlik ve danışma personeli desteği.</p>
+            <ul class="service-points">
+              <li><i class="fa-solid fa-check"></i> Tam bordrolu ve sigortalı personel</li>
+              <li><i class="fa-solid fa-check"></i> Personel izin/hastalık anında ikame güvencesi</li>
+              <li><i class="fa-solid fa-check"></i> Düzenli denetim ve performans takibi</li>
+            </ul>
+            <a href="index.html#hesaplayici" onclick="selectServiceForCalc('Personel Temini (Temizlik, Danışma, Garson)')" class="btn-card-quote">
+              <span>Fiyat Bilgisi Al</span> <i class="fa-solid fa-calculator"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hizmet 6 -->
+        <div class="service-card" data-category="ozel">
+          <div class="service-card-media">
+            <img src="assets/img/services/sedirpak-bocek-hasere-ilaclama.webp" alt="SedirPak Profesyonel Haşere İlaçlama" loading="lazy">
+            <div class="service-icon-badge">
+              <i class="fa-solid fa-bug-slash"></i>
+            </div>
+            <span class="service-cat-pill">İlaçlama</span>
+          </div>
+          <div class="service-card-body">
+            <h3>Profesyonel Haşere İlaçlama</h3>
+            <p>Sağlık Bakanlığı onaylı biyosidal ürünlerle kokusuz, garantili haşere mücadelesi.</p>
+            <ul class="service-points">
+              <li><i class="fa-solid fa-check"></i> Kokusuz ve leke bırakmayan formülasyon</li>
+              <li><i class="fa-solid fa-check"></i> Rögar, sığınak ve çöp odası uygulamaları</li>
+              <li><i class="fa-solid fa-check"></i> Resmi ilaçlama raporu teslimi</li>
+            </ul>
+            <a href="index.html#hesaplayici" onclick="selectServiceForCalc('Profesyonel İlaçlama & Dezenfeksiyon')" class="btn-card-quote">
+              <span>Fiyat Bilgisi Al</span> <i class="fa-solid fa-calculator"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hizmet 7 -->
+        <div class="service-card" data-category="yonetim">
+          <div class="service-card-media">
+            <img src="assets/img/services/sedirpak-havuz-bakimi.webp" alt="SedirPak Havuz Bakımı & Kimyasalları" loading="lazy">
+            <div class="service-icon-badge">
+              <i class="fa-solid fa-water-ladder"></i>
+            </div>
+            <span class="service-cat-pill">Yönetim</span>
+          </div>
+          <div class="service-card-body">
+            <h3>Havuz Bakımı & Kimyasalları</h3>
+            <p>Periyodik klor-pH kontrolü ve filtre bakımıyla daima kristal berraklıkta havuzlar.</p>
+            <ul class="service-points">
+              <li><i class="fa-solid fa-check"></i> Günlük su değerleri ölçüm ve kayıt defteri</li>
+              <li><i class="fa-solid fa-check"></i> Sezon başı ve kışlama özel bakımı</li>
+              <li><i class="fa-solid fa-check"></i> Kaliteli kimyasallar</li>
+            </ul>
+            <a href="index.html#hesaplayici" onclick="selectServiceForCalc('Havuz Bakımı & Kimyasalları')" class="btn-card-quote">
+              <span>Fiyat Bilgisi Al</span> <i class="fa-solid fa-calculator"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hizmet 8 -->
+        <div class="service-card" data-category="ozel">
+          <div class="service-card-media">
+            <img src="assets/img/services/sedirpak-housekeeping-servis.webp" alt="SedirPak Garson, Aşçı & Housekeeping" loading="lazy">
+            <div class="service-icon-badge">
+              <i class="fa-solid fa-bell-concierge"></i>
+            </div>
+            <span class="service-cat-pill">Personel</span>
+          </div>
+          <div class="service-card-body">
+            <h3>Garson, Aşçı & Housekeeping</h3>
+            <p>Özel organizasyon ve tesisler için deneyimli servis ve kat hizmetleri kadrosu.</p>
+            <ul class="service-points">
+              <li><i class="fa-solid fa-check"></i> Organizasyon bazlı esnek personel</li>
+              <li><i class="fa-solid fa-check"></i> Güler yüzlü ve hijyen belgeli kadro</li>
+              <li><i class="fa-solid fa-check"></i> Hızlı rezervasyon ve koordinasyon</li>
+            </ul>
+            <a href="index.html#hesaplayici" onclick="selectServiceForCalc('Personel Temini (Temizlik, Danışma, Garson)')" class="btn-card-quote">
+              <span>Fiyat Bilgisi Al</span> <i class="fa-solid fa-calculator"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Page CTA Conversion Strip -->
+  <section class="page-cta-strip">
+    <div class="container">
+      <div class="page-cta-card">
+        <h2>Binanız İçin Hemen Fiyat Teklifi Alın</h2>
+        <p>
+          Fiyat hesaplayıcımız ile binanızın özelliklerine göre 60 saniyede yaklaşık maliyet hesaplayabilir veya WhatsApp üzerinden uzman ekibimizle görüşebilirsiniz.
+        </p>
+        <div class="page-cta-buttons">
+          <a href="index.html#hesaplayici" class="btn btn-hero-primary">
+            <i class="fa-solid fa-calculator"></i> Fiyat Hesaplayıcıyla İncele
+          </a>
+          <a href="https://wa.me/905398471384?text=Merhaba,%20hizmetleriniz%20hakkinda%20bilgi%20ve%20fiyat%20almak%20istiyorum." target="_blank" class="btn btn-hero-whatsapp">
+            <i class="fa-brands fa-whatsapp"></i> Bize Ulaşın
+          </a>
+          <a href="tel:05398471384" class="btn btn-call-secondary" style="width: auto; padding: 13px 24px; color: #fff; background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2);">
+            <i class="fa-solid fa-phone"></i> 0539 847 13 84
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <div class="container footer-container">
+      <div class="footer-col footer-about">
+        <a href="index.html" class="footer-logo-link" aria-label="SedirPak Ana Sayfa">
+          <img src="assets/img/sedirpak-logo-footer.webp" alt="SedirPak Yönetim & Temizlik Logo" class="footer-logo-img">
+        </a>
+        <p class="footer-desc">
+          SedirPak; Kat Mülkiyeti Kanunu'na tam uyumlu şeffaf site yönetimi ve profesyonel endüstriyel temizlik alanında İstanbul ve Çorum'da hizmet veren kurumsal çözüm ortağınızdır.
+        </p>
+        <div class="social-links">
+          <a href="https://instagram.com/y.asim.ert" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/905398471384" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="tel:05398471384" aria-label="Telefon"><i class="fa-solid fa-phone"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Hızlı Bağlantılar</h4>
+        <ul class="footer-links">
+          <li><a href="index.html#hero">Ana Sayfa</a></li>
+          <li><a href="index.html#hakkimizda">Hakkımızda</a></li>
+          <li><a href="hizmetler.html">Hizmetlerimiz</a></li>
+          <li><a href="index.html#neden-biz">Neden SedirPak?</a></li>
+          <li><a href="index.html#yorumlar">Müşteri Yorumları</a></li>
+          <li><a href="referanslar.html">Referanslar & Projeler</a></li>
+          <li><a href="sss.html">Sıkça Sorulan Sorular (S.S.S.)</a></li>
+          <li><a href="index.html#subeler">Şubelerimiz & İletişim</a></li>
+          <li><a href="index.html#hesaplayici">Fiyat Bilgisi & Teklif</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Hizmetlerimiz</h4>
+        <ul class="footer-links">
+          <li><a href="hizmetler.html">Site & Apartman Yönetimi</a></li>
+          <li><a href="hizmetler.html">İnşaat Sonrası Temizlik</a></li>
+          <li><a href="hizmetler.html">Dış Cephe Cam Temizliği</a></li>
+          <li><a href="hizmetler.html">Ortak Alan Temizliği</a></li>
+          <li><a href="hizmetler.html">Personel Temini</a></li>
+          <li><a href="hizmetler.html">Haşere İlaçlama</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">İletişim Bilgileri</h4>
+        <div class="footer-contact-info">
+          <p><i class="fa-solid fa-phone"></i> <strong>Telefon:</strong> 0539 847 13 84</p>
+          <p><i class="fa-solid fa-envelope"></i> <strong>E-Posta:</strong> info@sedirpak.com</p>
+          <p><i class="fa-solid fa-location-dot"></i> <strong>İstanbul:</strong> İçerenköy Mah. Necmettin Erbakan Cad. No:19 Ataşehir</p>
+          <p><i class="fa-solid fa-location-dot"></i> <strong>Çorum:</strong> Bahçelievler Mah. Madeniş 1. Sok. 11/A Merkez</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 SedirPak Yönetim & Temizlik Hizmetleri. Tüm Hakları Saklıdır.</p>
+        <p class="coded-by">Coded by <a href="https://instagram.com/y.asim.ert" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i> yasimert (@y.asim.ert)</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Sticky Action Buttons -->
+  <div class="floating-action-group">
+    <button class="fab-btn fab-top" id="scrollTopBtn" title="Yukarı Çık" aria-label="Yukarı Çık">
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
+    <a href="https://wa.me/905398471384?text=Merhaba,%20SedirPak%20hizmetleri%20hakkinda%20bilgi%20almak%20istiyorum." target="_blank" class="fab-btn fab-whatsapp" id="fabWhatsapp" title="WhatsApp ile Yazın" aria-label="WhatsApp İletişim">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="fab-badge">1</span>
+      <span class="fab-tooltip">SedirPak'a WhatsApp'tan Ulaşın</span>
+    </a>
+    <a href="tel:05398471384" class="fab-btn fab-phone" id="fabPhone" title="Hemen Arayın" aria-label="Telefonla Arayın">
+      <i class="fa-solid fa-phone"></i>
+      <span class="fab-tooltip">Hemen Arayın: 0539 847 13 84</span>
+    </a>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/app.js?v=5.6"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+# ==============================================================================
+# SedirPak Yönetim & Temizlik - Robots.txt
+# Web: https://sedirpak.com
+# ==============================================================================
+
+User-agent: *
+Allow: /
+
+# Disallow internal scripts backup or dev assets if any
+Disallow: /assets_img_backup/
+Disallow: /calc_mobile_test.png
+
+# XML Sitemap Location
+Sitemap: https://sedirpak.com/sitemap.xml

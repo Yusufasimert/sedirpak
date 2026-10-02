@@ -1,0 +1,6 @@
+# Backup and temporary files
+assets_img_backup/
+/calc_mobile_test.png
+*.log
+.DS_Store
+Thumbs.db
