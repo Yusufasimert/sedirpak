@@ -714,8 +714,9 @@ function initPortfolioFilters() {
       const filter = tab.getAttribute('data-filter');
 
       portfolioItems.forEach(item => {
-        const category = item.getAttribute('data-category');
-        if (filter === 'all' || category === filter) {
+        const category = item.getAttribute('data-category') || '';
+        const cats = category.trim().split(/\s+/);
+        if (filter === 'all' || cats.includes(filter)) {
           item.style.display = 'block';
           setTimeout(() => {
             item.style.opacity = '1';
